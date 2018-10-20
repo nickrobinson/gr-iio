@@ -71,7 +71,7 @@ set(Boost_ADDITIONAL_VERSIONS
     "1.65.0" "1.65" "1.66.0" "1.66" "1.67.0" "1.67" "1.68.0" "1.68" "1.69.0" "1.69"
 )
 
-set(BOOST_REQUIRED_COMPONENTS filesystem system thread date_time)
+set(BOOST_REQUIRED_COMPONENTS filesystem system thread date_time chrono)
 
 if(MSVC)
     set(BOOST_REQUIRED_COMPONENTS ${BOOST_REQUIRED_COMPONENTS} chrono)
